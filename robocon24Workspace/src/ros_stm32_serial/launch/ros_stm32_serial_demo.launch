@@ -1,0 +1,13 @@
+<launch>
+
+    <!--通信节点-->
+    <node pkg="ros_stm32_serial" type="ros_stm32_serial_demo" name="ros_stm32_serial_demo" output="screen" />
+
+    <!-- 速度数据发布工具 -->
+    <node pkg="rqt_robot_steering" type="rqt_robot_steering" name="rqt_robot_steering" />
+    <!-- <node pkg="robot_control" type="vel_node.cpp" name="vel_node" /> -->
+    
+    <!-- Odom里程计节点 -->
+    <node pkg="odometry" type="odom" name="odom" output="screen" />
+
+</launch>

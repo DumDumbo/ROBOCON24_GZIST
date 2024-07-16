@@ -1,0 +1,143 @@
+<launch>
+    <!--静态坐标 -->
+    <!-- <node pkg = "tf2_ros" type="static_transform_publisher" name="global_to_odom_combined" args="0.0 0.0 0.0 0 0 0 1   /global   /odom_combined"/> -->
+    <node pkg = "tf2_ros" type="static_transform_publisher" name="base_link_to_gate" args="0.35 0.015 0 0 0 0 1   /base_link   /gate"/>    <!--入球口-->
+    <node pkg = "tf2_ros" type="static_transform_publisher" name="base_link_to_camera" args="0.15 0.015 0.33 0 0 0 1   /base_link   /camera_link"/>
+    <node pkg = "tf2_ros" type="static_transform_publisher" name="base_link_to_imu" args="0 0 0 0 0 0 1   /base_link   /imu"/>        
+    <node pkg = "tf2_ros" type="static_transform_publisher" name="base_link_to_laser" args="0.28 0.15 0.1 0 0 1 0   /base_link   /laser"/>                
+    
+
+    <!--******
+    **********算法类启动  
+    ************************ -->
+    <!-- SLAM：gmapping 建图节点 -->
+    <!-- <node pkg="gmapping" type="slam_gmapping" name="slam_gmapping" output="screen" >
+        <param name= "base_frame" value="base_link"/>
+        <param name= "map_frame" value="map"/>
+        <param name= "odom_frame" value="odom_combined"/>
+        
+        <param name= "maxUrange" value="12"/>
+        <param name= "maxRange" value="12"/>
+    </node> -->
+
+
+
+    <!-- map与base_link位姿监听节点 -->
+    <!-- <node pkg="robot_control" type="listener_for_map2baselink.py" name="listener_for_map2baselink" output="screen" /> -->
+    
+
+
+    <!--雷达点云转换节点（至base_link） -->
+    <!-- <node pkg="robot_control" type="laser_point2base_link.py" name="laser_point2base_link" output="screen" /> -->
+
+
+
+    <!--机器人融合位姿 -->
+    <!-- <include file= "$(find robot_pose_ekf)/launch/robot_pose_ekf.launch"/> -->
+
+    <!-- Opencv判断入口球颜色:
+            1. 启动Astra S 深度相机
+            2. 设置Astra S 深度相机的参数，这里关闭了自动曝光和自动白平衡
+            3.启动opencv节点进行红紫蓝颜色判断 -->
+    <!-- <include file="$(find astra_camera)/launch/astra.launch"/>
+    <node pkg="robot_control" type="set_camera_params.py" name="set_camera_params" output="screen" launch-prefix="bash -c 'sleep 8; $0 $@'" /> -->
+    <node pkg = "target_detection" type="detector_opencv.py" name="detector_opencv" output="screen"/>
+
+    <!--前置YoloV5，识别球
+            1. 启动Intel D435深度相机
+            2. 启动前置yoloV5识别节点 -->
+    <!-- <include file="$(find astra_camera)/launch/astra.launch"/>                    -->
+    <!-- <include file= "$(find realsense2_camera)/launch/rs_camera.launch"/> -->
+    <include file= "$(find yolov5_ros)/launch/yolo_v5.launch"/>
+
+    <!--后置Yolov5，识别谷仓
+            1.启动Orbbec Gemini335L深度相机
+            2.启动后置yoloV5识别节点-->
+    <include file= "$(find orbbec_camera)/launch/gemini_330_series.launch"/>
+    <!-- <include file= "$(find yolov5_ros)/launch/yolo_v5_barn.launch"/> -->
+    
+    <!-- <include file= "$(find yolov5_ros)/launch/yolo_v5_combined.launch"/> -->
+
+    <!-- 所有目标信息节点  注意相机型号：Orbbec Astra S使用第一个，Intel D435选择第二个,    Orbbec Gemini335L选择第三个-->
+    <!-- <node pkg = "target_detection" type="detector.py" name="detector" output="screen"/> -->
+    <!-- <node pkg = "target_detection" type="detector_d435.py" name="detector_d435" output="screen" /> -->
+    <node pkg = "target_detection" type="detector_gemini335l.py" name="detector_gemini335l" output="screen" />
+
+
+
+    <!-- 目标锁定节点(单个目标)  注意相机型号：Orbbec Astra S使用第一个，Intel D435选择第二个，Orbbec Gemini335L选择第三个-->
+    <!-- <node pkg = "target_detection" type="target_locked.py" name="target_locked" output="screen"/> -->
+    <!-- <node pkg = "target_detection" type="target_locked_d435.py" name="target_locked_d435" output="screen"/> -->
+    <node pkg = "target_detection" type="target_locked_gemini335l.py" name="target_locked_gemini335l" output="screen"/>
+    
+
+
+    <!-- 决策控制节点 -->
+    <node pkg="robot_control" type="robot_control_demo" name="robot_control_demo" output="screen">
+        <!--PID参数设置-->
+        <!--右手坐标系X轴-->
+        <param name="kp_x" type="double" value="1.5"/>
+        <param name="ki_x" type="double" value="0.00027"/>
+        <param name="kd_x" type="double" value="0.02"/>
+        <!--右手坐标系Y轴-->
+        <param name="kp_y" type="double" value="1.5"/>
+        <param name="ki_y" type="double" value="0.00027"/>
+        <param name="kd_y" type="double" value="0.02"/>
+        <!--右手坐标系Z轴-->
+        <param name="kp_z" type="double" value="0.0025"/>
+        <param name="ki_z" type="double" value="0.0"/>
+        <param name="kd_z" type="double" value="0.0001"/>
+        <!--Yaw-->
+        <param name="kp_yaw" type="double" value="0.055"/>
+        <param name="ki_yaw" type="double" value="0.000001"/>
+        <param name="kd_yaw" type="double" value="0.0001"/>
+      </node>
+
+
+
+    <!--******
+    **********硬件类启动  
+    ************************ -->
+    <!--前置相机启动(用于识别球)   1: Orbbec Astra S    2: Intel D435       3:Orbbec Gemini335L-->
+
+    <!-- <include file= "$(find realsense2_camera)/launch/rs_camera.launch"/> -->
+    <!-- <include file= "$(find orbbec_camera)/launch/gemini_330_series.launch"/> -->
+
+
+
+    <!--后置相机启动(用于识别谷仓)   1: Orbbec Astra S    2: Intel D435       3:Orbbec Gemini335L-->
+    <!-- <include file= "$(find astra_camera)/launch/astra.launch"/> -->
+    <!-- <include file= "$(find realsense2_camera)/launch/rs_camera.launch"/> -->
+    <!-- <include file= "$(find orbbec_camera)/launch/gemini_330_series.launch"/> -->
+
+
+
+    <!--雷达启动节点 -->
+    <!-- <include file ="$(find lsn10)/launch/lsn10.launch"/> -->
+
+
+
+    <!-- Imu 节点启动 -->
+    <include file= "$(find wit_ros_imu)/launch/wit_imu.launch"/>
+
+
+
+    <!-- Odom里程计节点 -->
+    <!-- <node pkg="odometry" type="odom" name="odom" output="screen" /> -->
+
+
+
+    <!-- 通讯节点 -->
+    <node pkg="ros_stm32_serial" type="ros_stm32_serial_demo" name="ros_stm32_serial_demo" output="screen" />
+    
+    
+
+ <!--******
+ ********** 可视化工具
+ ************************ -->
+    <!-- <node pkg = "rviz" type="rviz" name="rviz" args="-d $(find robot_control)/rviz/demo.rviz"/> -->
+    <node pkg = "rqt_image_view" type="rqt_image_view" name="rqt_image_view"/>
+    <!-- <node pkg = "rqt_tf_tree" type="rqt_tf_tree" name="rqt_tf_tree"/> -->
+    <!-- <node pkg = "pid_visualization" type="visualization.py" name="visualization"/> -->
+</launch>
+

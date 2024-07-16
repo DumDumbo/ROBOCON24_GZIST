@@ -1,0 +1,8 @@
+prefix=/home/dragon/robocon24Workspace/install
+
+Name: image_ros2opencv
+Description: Description of image_ros2opencv
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

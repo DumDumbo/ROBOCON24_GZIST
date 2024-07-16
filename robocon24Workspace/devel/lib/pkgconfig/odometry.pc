@@ -1,0 +1,8 @@
+prefix=/home/dragon/robocon24Workspace/devel
+
+Name: odometry
+Description: Description of odometry
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,13 @@
+[06/28 10:39:57.371207][debug][11514][Context.cpp:30] Context creating, work_dir=/home/dragon/robocon24Workspace
+[06/28 10:39:57.371543][debug][11514][Context.cpp:49] Config file version=1.1
+[06/28 10:39:57.371663][debug][11514][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[06/28 10:39:57.371723][info][11514][Context.cpp:68] Context created with config: default config!
+[06/28 10:39:57.371899][info][11514][Context.cpp:73] Work directory=/home/dragon/robocon24Workspace, SDK version=v1.10.8-20240604-d1671a3
+[06/28 10:39:57.371983][debug][11514][DeviceManager.cpp:30] DeviceManager init ...
+[06/28 10:39:57.372014][info][11514][LinuxPal.cpp:32] createObPal: create LinuxPal!
+[06/28 10:39:57.375940][debug][11514][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[06/28 10:39:57.376039][debug][11514][EnumeratorLibusb.cpp:322] queryDevicesInfo done!
+[06/28 10:39:57.376173][info][11514][LinuxPal.cpp:143] Create PollingDeviceWatcher!
+[06/28 10:39:57.376245][debug][11514][UsbDeviceEnumerator.cpp:77] No matched usb device found!
+[06/28 10:39:57.376289][info][11514][DeviceManager.cpp:15] Current found device(s): (0)
+[06/28 10:39:57.376348][debug][11514][DeviceManager.cpp:52] DeviceManager construct done!

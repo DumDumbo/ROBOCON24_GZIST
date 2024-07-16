@@ -1,0 +1,8 @@
+prefix=/home/dragon/robocon24Workspace/install
+
+Name: pid_visualization
+Description: Description of pid_visualization
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

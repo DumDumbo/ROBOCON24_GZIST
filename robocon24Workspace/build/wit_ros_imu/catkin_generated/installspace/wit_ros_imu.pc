@@ -1,0 +1,8 @@
+prefix=/home/dragon/robocon24Workspace/install
+
+Name: wit_ros_imu
+Description: Description of wit_ros_imu
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

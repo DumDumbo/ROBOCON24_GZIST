@@ -1,0 +1,2 @@
+astra_camera:gmapping:image_ros2opencv:lsn10/lsn10:odometry:orbbec_camera:pid_visualization:realsense-ros-ros1-legacy/realsense2_camera:realsense-ros-ros1-legacy/realsense2_description:robot_control:robot_pose_ekf:ros_stm32_serial:slam_gmapping:target_detection:web_viewer:wit_ros_imu:yolov5_ros:yolov5_ros_msgs
+-DCATKIN_WHITELIST_PACKAGES=robot_control -DPYTHON_EXECUTABLE=/usr/bin/python -DCATKIN_DEVEL_PREFIX=/home/dragon/robocon24Workspace/devel -DCMAKE_INSTALL_PREFIX=/home/dragon/robocon24Workspace/install -G Unix Makefiles

@@ -1,0 +1,8 @@
+prefix=/home/dragon/robocon24Workspace/devel
+
+Name: yolov5_ros_msgs
+Description: Description of yolov5_ros_msgs
+Version: 0.0.0
+Cflags: -I/home/dragon/robocon24Workspace/devel/include
+Libs: -L${prefix}/lib 
+Requires: message_generation message_runtime roscpp rospy std_msgs

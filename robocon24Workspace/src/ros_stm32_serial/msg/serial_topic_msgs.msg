@@ -1,0 +1,14 @@
+float64 flag
+float64 status
+float64 linearX
+float64 linearY
+float64 angularZ
+int32 LaserFront
+int32 LaserL
+int32 LaserR
+int32 LaserRear
+uint8 Roller
+uint8 Mode
+uint8 KeepOrNot
+uint8 PlaceOrNot
+string RobotStatus

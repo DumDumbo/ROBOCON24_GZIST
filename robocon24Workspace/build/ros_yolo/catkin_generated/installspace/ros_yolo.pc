@@ -1,0 +1,8 @@
+prefix=/home/dragon/robocon24Workspace/install
+
+Name: ros_yolo
+Description: Description of ros_yolo
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
