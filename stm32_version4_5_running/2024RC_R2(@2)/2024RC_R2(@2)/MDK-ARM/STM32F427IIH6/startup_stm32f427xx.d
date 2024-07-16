@@ -1,0 +1,1 @@
+stm32f427iih6\startup_stm32f427xx.o: startup_stm32f427xx.s

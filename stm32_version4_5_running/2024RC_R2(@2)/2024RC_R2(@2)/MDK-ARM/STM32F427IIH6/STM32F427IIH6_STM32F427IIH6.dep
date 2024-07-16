@@ -1,0 +1,1359 @@
+Dependencies for Project 'STM32F427IIH6', Target 'STM32F427IIH6': (DO NOT MODIFY !)
+F (startup_stm32f427xx.s)(0x66899CC2)(--cpu Cortex-M4.fp -g --apcs=interwork -I ..\Core\Inc -I ../Core/Inc-I D:\program_bags\Robocon24\小牛下位机代码\version4_5\2024RC_R2(@2)\2024RC_R2(@2)\MDK-ARM\RTE-I "D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I "D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\PACK\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"--pd "__UVISION_VERSION SETA 518" --pd "_RTE_ SETA 1" --pd "STM32F427xx SETA 1"--list startup_stm32f427xx.lst --xref -o stm32f427iih6\startup_stm32f427xx.o --depend stm32f427iih6\startup_stm32f427xx.d)
+F (../Core/Src/main.c)(0x668BE1A4)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../application -I ../boards -I ../assignment-I D:\program_bags\Robocon24\小牛下位机代码\version4_5\2024RC_R2(@2)\2024RC_R2(@2)\MDK-ARM\RTE-I "D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I "D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\PACK\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F427xx -DUSE_HAL_DRIVER -DSTM32F427xx-o stm32f427iih6\main.o --omf_browse stm32f427iih6\main.crf --depend stm32f427iih6\main.d)
+I (../Core/Inc/main.h)(0x668BDE30)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x64782DCE)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x65B361A4)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x64782DCE)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x64782DAC)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f427xx.h)(0x64782DAC)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x64782DAE)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x64782DAE)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x64782DAE)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x64782DAE)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x64782DAE)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x64782DAC)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x64782DCE)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x64782DCE)
+I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x64782DB0)
+I (../Core/Inc/FreeRTOSConfig.h)(0x6437A204)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h)(0x64782DB0)
+I (../Core/Inc/can.h)(0x64379F52)
+I (../Core/Inc/dma.h)(0x643798EA)
+I (../Core/Inc/tim.h)(0x652EC55A)
+I (../Core/Inc/usart.h)(0x666B099A)
+I (../Core/Inc/gpio.h)(0x643798EA)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\stdio.h)(0x569DEA3A)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\stdlib.h)(0x569DEA3A)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\stdarg.h)(0x569DEA3A)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\string.h)(0x569DEA3A)
+I (../boards/gld_can.h)(0x6644999C)
+I (../application/struct_typedef.h)(0x5EEF57FE)
+I (../application/pid.h)(0x662BDA20)
+I (../assignment/chassis_task.h)(0x666B0A9A)
+F (../Core/Src/gpio.c)(0x66899CB6)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../application -I ../boards -I ../assignment-I D:\program_bags\Robocon24\小牛下位机代码\version4_5\2024RC_R2(@2)\2024RC_R2(@2)\MDK-ARM\RTE-I "D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I "D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\PACK\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F427xx -DUSE_HAL_DRIVER -DSTM32F427xx-o stm32f427iih6\gpio.o --omf_browse stm32f427iih6\gpio.crf --depend stm32f427iih6\gpio.d)
+I (../Core/Inc/gpio.h)(0x643798EA)
+I (../Core/Inc/main.h)(0x668BDE30)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x64782DCE)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x65B361A4)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x64782DCE)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x64782DAC)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f427xx.h)(0x64782DAC)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x64782DAE)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x64782DAE)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x64782DAE)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x64782DAE)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x64782DAE)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x64782DAC)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x64782DCE)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x64782DCE)
+F (../Core/Src/freertos.c)(0x666B0998)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../application -I ../boards -I ../assignment-I D:\program_bags\Robocon24\小牛下位机代码\version4_5\2024RC_R2(@2)\2024RC_R2(@2)\MDK-ARM\RTE-I "D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I "D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\PACK\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F427xx -DUSE_HAL_DRIVER -DSTM32F427xx-o stm32f427iih6\freertos.o --omf_browse stm32f427iih6\freertos.crf --depend stm32f427iih6\freertos.d)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x64782DB0)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../Core/Inc/FreeRTOSConfig.h)(0x6437A204)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x64782DB0)
+I (../Core/Inc/main.h)(0x668BDE30)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x64782DCE)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x65B361A4)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x64782DCE)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x64782DAC)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f427xx.h)(0x64782DAC)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x64782DAE)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x64782DAE)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x64782DAE)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x64782DAE)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x64782DAE)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x64782DAC)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x64782DCE)
+I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h)(0x64782DB0)
+I (../assignment/chassis_task.h)(0x666B0A9A)
+I (../Core/Inc/gpio.h)(0x643798EA)
+I (../Core/Inc/tim.h)(0x652EC55A)
+I (../application/pid.h)(0x662BDA20)
+I (../application/struct_typedef.h)(0x5EEF57FE)
+I (../Core/Inc/can.h)(0x64379F52)
+I (../Core/Inc/dma.h)(0x643798EA)
+I (../Core/Inc/usart.h)(0x666B099A)
+I (../assignment/upper_task.h)(0x6674AC42)
+I (../boards/gld_can.h)(0x6644999C)
+F (../Core/Src/can.c)(0x6437A204)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../application -I ../boards -I ../assignment-I D:\program_bags\Robocon24\小牛下位机代码\version4_5\2024RC_R2(@2)\2024RC_R2(@2)\MDK-ARM\RTE-I "D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I "D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\PACK\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F427xx -DUSE_HAL_DRIVER -DSTM32F427xx-o stm32f427iih6\can.o --omf_browse stm32f427iih6\can.crf --depend stm32f427iih6\can.d)
+I (../Core/Inc/can.h)(0x64379F52)
+I (../Core/Inc/main.h)(0x668BDE30)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x64782DCE)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x65B361A4)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x64782DCE)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x64782DAC)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f427xx.h)(0x64782DAC)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x64782DAE)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x64782DAE)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x64782DAE)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x64782DAE)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x64782DAE)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x64782DAC)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x64782DCE)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x64782DCE)
+F (../Core/Src/dma.c)(0x666B099A)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../application -I ../boards -I ../assignment-I D:\program_bags\Robocon24\小牛下位机代码\version4_5\2024RC_R2(@2)\2024RC_R2(@2)\MDK-ARM\RTE-I "D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I "D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\PACK\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F427xx -DUSE_HAL_DRIVER -DSTM32F427xx-o stm32f427iih6\dma.o --omf_browse stm32f427iih6\dma.crf --depend stm32f427iih6\dma.d)
+I (../Core/Inc/dma.h)(0x643798EA)
+I (../Core/Inc/main.h)(0x668BDE30)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x64782DCE)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x65B361A4)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x64782DCE)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x64782DAC)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f427xx.h)(0x64782DAC)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x64782DAE)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x64782DAE)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x64782DAE)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x64782DAE)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x64782DAE)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x64782DAC)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x64782DCE)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x64782DCE)
+F (../Core/Src/tim.c)(0x65B361A4)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../application -I ../boards -I ../assignment-I D:\program_bags\Robocon24\小牛下位机代码\version4_5\2024RC_R2(@2)\2024RC_R2(@2)\MDK-ARM\RTE-I "D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I "D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\PACK\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F427xx -DUSE_HAL_DRIVER -DSTM32F427xx-o stm32f427iih6\tim.o --omf_browse stm32f427iih6\tim.crf --depend stm32f427iih6\tim.d)
+I (../Core/Inc/tim.h)(0x652EC55A)
+I (../Core/Inc/main.h)(0x668BDE30)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x64782DCE)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x65B361A4)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x64782DCE)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x64782DAC)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f427xx.h)(0x64782DAC)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x64782DAE)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x64782DAE)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x64782DAE)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x64782DAE)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x64782DAE)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x64782DAC)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x64782DCE)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x64782DCE)
+F (../Core/Src/usart.c)(0x6674887C)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../application -I ../boards -I ../assignment-I D:\program_bags\Robocon24\小牛下位机代码\version4_5\2024RC_R2(@2)\2024RC_R2(@2)\MDK-ARM\RTE-I "D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I "D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\PACK\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F427xx -DUSE_HAL_DRIVER -DSTM32F427xx-o stm32f427iih6\usart.o --omf_browse stm32f427iih6\usart.crf --depend stm32f427iih6\usart.d)
+I (../Core/Inc/usart.h)(0x666B099A)
+I (../Core/Inc/main.h)(0x668BDE30)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x64782DCE)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x65B361A4)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x64782DCE)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x64782DAC)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f427xx.h)(0x64782DAC)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x64782DAE)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x64782DAE)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x64782DAE)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x64782DAE)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x64782DAE)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x64782DAC)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x64782DCE)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x64782DCE)
+F (../Core/Src/stm32f4xx_it.c)(0x668BE0A4)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../application -I ../boards -I ../assignment-I D:\program_bags\Robocon24\小牛下位机代码\version4_5\2024RC_R2(@2)\2024RC_R2(@2)\MDK-ARM\RTE-I "D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I "D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\PACK\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F427xx -DUSE_HAL_DRIVER -DSTM32F427xx-o stm32f427iih6\stm32f4xx_it.o --omf_browse stm32f427iih6\stm32f4xx_it.crf --depend stm32f427iih6\stm32f4xx_it.d)
+I (../Core/Inc/main.h)(0x668BDE30)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x64782DCE)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x65B361A4)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x64782DCE)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x64782DAC)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f427xx.h)(0x64782DAC)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x64782DAE)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x64782DAE)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x64782DAE)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x64782DAE)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x64782DAE)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x64782DAC)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x64782DCE)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x64782DCE)
+I (../Core/Inc/stm32f4xx_it.h)(0x666B099A)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x64782DB0)
+I (../Core/Inc/FreeRTOSConfig.h)(0x6437A204)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x64782DB0)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\stdlib.h)(0x569DEA3A)
+F (../Core/Src/stm32f4xx_hal_msp.c)(0x65B361A4)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../application -I ../boards -I ../assignment-I D:\program_bags\Robocon24\小牛下位机代码\version4_5\2024RC_R2(@2)\2024RC_R2(@2)\MDK-ARM\RTE-I "D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I "D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\PACK\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F427xx -DUSE_HAL_DRIVER -DSTM32F427xx-o stm32f427iih6\stm32f4xx_hal_msp.o --omf_browse stm32f427iih6\stm32f4xx_hal_msp.crf --depend stm32f427iih6\stm32f4xx_hal_msp.d)
+I (../Core/Inc/main.h)(0x668BDE30)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x64782DCE)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x65B361A4)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x64782DCE)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x64782DAC)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f427xx.h)(0x64782DAC)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x64782DAE)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x64782DAE)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x64782DAE)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x64782DAE)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x64782DAE)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x64782DAC)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x64782DCE)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x64782DCE)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c)(0x64782DCE)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../application -I ../boards -I ../assignment-I D:\program_bags\Robocon24\小牛下位机代码\version4_5\2024RC_R2(@2)\2024RC_R2(@2)\MDK-ARM\RTE-I "D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I "D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\PACK\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F427xx -DUSE_HAL_DRIVER -DSTM32F427xx-o stm32f427iih6\stm32f4xx_hal_can.o --omf_browse stm32f427iih6\stm32f4xx_hal_can.crf --depend stm32f427iih6\stm32f4xx_hal_can.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x64782DCE)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x65B361A4)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x64782DCE)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x64782DAC)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f427xx.h)(0x64782DAC)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x64782DAE)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x64782DAE)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x64782DAE)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x64782DAE)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x64782DAE)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x64782DAC)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x64782DCE)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x64782DCE)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c)(0x64782DCE)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../application -I ../boards -I ../assignment-I D:\program_bags\Robocon24\小牛下位机代码\version4_5\2024RC_R2(@2)\2024RC_R2(@2)\MDK-ARM\RTE-I "D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I "D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\PACK\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F427xx -DUSE_HAL_DRIVER -DSTM32F427xx-o stm32f427iih6\stm32f4xx_hal_rcc.o --omf_browse stm32f427iih6\stm32f4xx_hal_rcc.crf --depend stm32f427iih6\stm32f4xx_hal_rcc.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x64782DCE)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x65B361A4)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x64782DCE)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x64782DAC)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f427xx.h)(0x64782DAC)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x64782DAE)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x64782DAE)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x64782DAE)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x64782DAE)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x64782DAE)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x64782DAC)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x64782DCE)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x64782DCE)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c)(0x64782DCE)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../application -I ../boards -I ../assignment-I D:\program_bags\Robocon24\小牛下位机代码\version4_5\2024RC_R2(@2)\2024RC_R2(@2)\MDK-ARM\RTE-I "D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I "D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\PACK\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F427xx -DUSE_HAL_DRIVER -DSTM32F427xx-o stm32f427iih6\stm32f4xx_hal_rcc_ex.o --omf_browse stm32f427iih6\stm32f4xx_hal_rcc_ex.crf --depend stm32f427iih6\stm32f4xx_hal_rcc_ex.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x64782DCE)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x65B361A4)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x64782DCE)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x64782DAC)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f427xx.h)(0x64782DAC)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x64782DAE)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x64782DAE)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x64782DAE)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x64782DAE)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x64782DAE)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x64782DAC)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x64782DCE)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x64782DCE)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c)(0x64782DCE)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../application -I ../boards -I ../assignment-I D:\program_bags\Robocon24\小牛下位机代码\version4_5\2024RC_R2(@2)\2024RC_R2(@2)\MDK-ARM\RTE-I "D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I "D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\PACK\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F427xx -DUSE_HAL_DRIVER -DSTM32F427xx-o stm32f427iih6\stm32f4xx_hal_flash.o --omf_browse stm32f427iih6\stm32f4xx_hal_flash.crf --depend stm32f427iih6\stm32f4xx_hal_flash.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x64782DCE)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x65B361A4)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x64782DCE)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x64782DAC)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f427xx.h)(0x64782DAC)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x64782DAE)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x64782DAE)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x64782DAE)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x64782DAE)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x64782DAE)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x64782DAC)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x64782DCE)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x64782DCE)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c)(0x64782DCE)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../application -I ../boards -I ../assignment-I D:\program_bags\Robocon24\小牛下位机代码\version4_5\2024RC_R2(@2)\2024RC_R2(@2)\MDK-ARM\RTE-I "D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I "D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\PACK\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F427xx -DUSE_HAL_DRIVER -DSTM32F427xx-o stm32f427iih6\stm32f4xx_hal_flash_ex.o --omf_browse stm32f427iih6\stm32f4xx_hal_flash_ex.crf --depend stm32f427iih6\stm32f4xx_hal_flash_ex.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x64782DCE)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x65B361A4)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x64782DCE)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x64782DAC)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f427xx.h)(0x64782DAC)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x64782DAE)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x64782DAE)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x64782DAE)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x64782DAE)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x64782DAE)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x64782DAC)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x64782DCE)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x64782DCE)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c)(0x64782DCE)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../application -I ../boards -I ../assignment-I D:\program_bags\Robocon24\小牛下位机代码\version4_5\2024RC_R2(@2)\2024RC_R2(@2)\MDK-ARM\RTE-I "D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I "D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\PACK\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F427xx -DUSE_HAL_DRIVER -DSTM32F427xx-o stm32f427iih6\stm32f4xx_hal_flash_ramfunc.o --omf_browse stm32f427iih6\stm32f4xx_hal_flash_ramfunc.crf --depend stm32f427iih6\stm32f4xx_hal_flash_ramfunc.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x64782DCE)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x65B361A4)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x64782DCE)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x64782DAC)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f427xx.h)(0x64782DAC)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x64782DAE)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x64782DAE)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x64782DAE)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x64782DAE)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x64782DAE)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x64782DAC)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x64782DCE)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x64782DCE)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c)(0x64782DCE)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../application -I ../boards -I ../assignment-I D:\program_bags\Robocon24\小牛下位机代码\version4_5\2024RC_R2(@2)\2024RC_R2(@2)\MDK-ARM\RTE-I "D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I "D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\PACK\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F427xx -DUSE_HAL_DRIVER -DSTM32F427xx-o stm32f427iih6\stm32f4xx_hal_gpio.o --omf_browse stm32f427iih6\stm32f4xx_hal_gpio.crf --depend stm32f427iih6\stm32f4xx_hal_gpio.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x64782DCE)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x65B361A4)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x64782DCE)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x64782DAC)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f427xx.h)(0x64782DAC)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x64782DAE)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x64782DAE)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x64782DAE)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x64782DAE)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x64782DAE)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x64782DAC)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x64782DCE)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x64782DCE)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c)(0x64782DCE)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../application -I ../boards -I ../assignment-I D:\program_bags\Robocon24\小牛下位机代码\version4_5\2024RC_R2(@2)\2024RC_R2(@2)\MDK-ARM\RTE-I "D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I "D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\PACK\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F427xx -DUSE_HAL_DRIVER -DSTM32F427xx-o stm32f427iih6\stm32f4xx_hal_dma_ex.o --omf_browse stm32f427iih6\stm32f4xx_hal_dma_ex.crf --depend stm32f427iih6\stm32f4xx_hal_dma_ex.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x64782DCE)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x65B361A4)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x64782DCE)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x64782DAC)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f427xx.h)(0x64782DAC)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x64782DAE)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x64782DAE)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x64782DAE)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x64782DAE)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x64782DAE)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x64782DAC)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x64782DCE)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x64782DCE)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c)(0x64782DCE)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../application -I ../boards -I ../assignment-I D:\program_bags\Robocon24\小牛下位机代码\version4_5\2024RC_R2(@2)\2024RC_R2(@2)\MDK-ARM\RTE-I "D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I "D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\PACK\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F427xx -DUSE_HAL_DRIVER -DSTM32F427xx-o stm32f427iih6\stm32f4xx_hal_dma.o --omf_browse stm32f427iih6\stm32f4xx_hal_dma.crf --depend stm32f427iih6\stm32f4xx_hal_dma.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x64782DCE)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x65B361A4)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x64782DCE)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x64782DAC)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f427xx.h)(0x64782DAC)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x64782DAE)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x64782DAE)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x64782DAE)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x64782DAE)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x64782DAE)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x64782DAC)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x64782DCE)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x64782DCE)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c)(0x64782DCE)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../application -I ../boards -I ../assignment-I D:\program_bags\Robocon24\小牛下位机代码\version4_5\2024RC_R2(@2)\2024RC_R2(@2)\MDK-ARM\RTE-I "D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I "D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\PACK\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F427xx -DUSE_HAL_DRIVER -DSTM32F427xx-o stm32f427iih6\stm32f4xx_hal_pwr.o --omf_browse stm32f427iih6\stm32f4xx_hal_pwr.crf --depend stm32f427iih6\stm32f4xx_hal_pwr.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x64782DCE)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x65B361A4)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x64782DCE)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x64782DAC)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f427xx.h)(0x64782DAC)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x64782DAE)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x64782DAE)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x64782DAE)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x64782DAE)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x64782DAE)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x64782DAC)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x64782DCE)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x64782DCE)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c)(0x64782DCE)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../application -I ../boards -I ../assignment-I D:\program_bags\Robocon24\小牛下位机代码\version4_5\2024RC_R2(@2)\2024RC_R2(@2)\MDK-ARM\RTE-I "D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I "D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\PACK\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F427xx -DUSE_HAL_DRIVER -DSTM32F427xx-o stm32f427iih6\stm32f4xx_hal_pwr_ex.o --omf_browse stm32f427iih6\stm32f4xx_hal_pwr_ex.crf --depend stm32f427iih6\stm32f4xx_hal_pwr_ex.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x64782DCE)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x65B361A4)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x64782DCE)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x64782DAC)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f427xx.h)(0x64782DAC)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x64782DAE)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x64782DAE)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x64782DAE)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x64782DAE)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x64782DAE)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x64782DAC)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x64782DCE)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x64782DCE)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c)(0x64782DCE)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../application -I ../boards -I ../assignment-I D:\program_bags\Robocon24\小牛下位机代码\version4_5\2024RC_R2(@2)\2024RC_R2(@2)\MDK-ARM\RTE-I "D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I "D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\PACK\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F427xx -DUSE_HAL_DRIVER -DSTM32F427xx-o stm32f427iih6\stm32f4xx_hal_cortex.o --omf_browse stm32f427iih6\stm32f4xx_hal_cortex.crf --depend stm32f427iih6\stm32f4xx_hal_cortex.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x64782DCE)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x65B361A4)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x64782DCE)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x64782DAC)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f427xx.h)(0x64782DAC)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x64782DAE)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x64782DAE)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x64782DAE)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x64782DAE)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x64782DAE)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x64782DAC)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x64782DCE)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x64782DCE)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c)(0x64782DCE)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../application -I ../boards -I ../assignment-I D:\program_bags\Robocon24\小牛下位机代码\version4_5\2024RC_R2(@2)\2024RC_R2(@2)\MDK-ARM\RTE-I "D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I "D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\PACK\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F427xx -DUSE_HAL_DRIVER -DSTM32F427xx-o stm32f427iih6\stm32f4xx_hal.o --omf_browse stm32f427iih6\stm32f4xx_hal.crf --depend stm32f427iih6\stm32f4xx_hal.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x64782DCE)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x65B361A4)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x64782DCE)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x64782DAC)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f427xx.h)(0x64782DAC)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x64782DAE)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x64782DAE)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x64782DAE)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x64782DAE)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x64782DAE)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x64782DAC)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x64782DCE)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x64782DCE)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c)(0x64782DCE)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../application -I ../boards -I ../assignment-I D:\program_bags\Robocon24\小牛下位机代码\version4_5\2024RC_R2(@2)\2024RC_R2(@2)\MDK-ARM\RTE-I "D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I "D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\PACK\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F427xx -DUSE_HAL_DRIVER -DSTM32F427xx-o stm32f427iih6\stm32f4xx_hal_exti.o --omf_browse stm32f427iih6\stm32f4xx_hal_exti.crf --depend stm32f427iih6\stm32f4xx_hal_exti.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x64782DCE)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x65B361A4)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x64782DCE)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x64782DAC)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f427xx.h)(0x64782DAC)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x64782DAE)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x64782DAE)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x64782DAE)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x64782DAE)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x64782DAE)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x64782DAC)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x64782DCE)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x64782DCE)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c)(0x64782DCE)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../application -I ../boards -I ../assignment-I D:\program_bags\Robocon24\小牛下位机代码\version4_5\2024RC_R2(@2)\2024RC_R2(@2)\MDK-ARM\RTE-I "D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I "D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\PACK\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F427xx -DUSE_HAL_DRIVER -DSTM32F427xx-o stm32f427iih6\stm32f4xx_hal_tim.o --omf_browse stm32f427iih6\stm32f4xx_hal_tim.crf --depend stm32f427iih6\stm32f4xx_hal_tim.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x64782DCE)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x65B361A4)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x64782DCE)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x64782DAC)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f427xx.h)(0x64782DAC)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x64782DAE)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x64782DAE)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x64782DAE)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x64782DAE)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x64782DAE)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x64782DAC)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x64782DCE)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x64782DCE)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c)(0x64782DCE)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../application -I ../boards -I ../assignment-I D:\program_bags\Robocon24\小牛下位机代码\version4_5\2024RC_R2(@2)\2024RC_R2(@2)\MDK-ARM\RTE-I "D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I "D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\PACK\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F427xx -DUSE_HAL_DRIVER -DSTM32F427xx-o stm32f427iih6\stm32f4xx_hal_tim_ex.o --omf_browse stm32f427iih6\stm32f4xx_hal_tim_ex.crf --depend stm32f427iih6\stm32f4xx_hal_tim_ex.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x64782DCE)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x65B361A4)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x64782DCE)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x64782DAC)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f427xx.h)(0x64782DAC)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x64782DAE)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x64782DAE)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x64782DAE)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x64782DAE)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x64782DAE)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x64782DAC)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x64782DCE)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x64782DCE)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c)(0x64782DCE)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../application -I ../boards -I ../assignment-I D:\program_bags\Robocon24\小牛下位机代码\version4_5\2024RC_R2(@2)\2024RC_R2(@2)\MDK-ARM\RTE-I "D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I "D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\PACK\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F427xx -DUSE_HAL_DRIVER -DSTM32F427xx-o stm32f427iih6\stm32f4xx_hal_uart.o --omf_browse stm32f427iih6\stm32f4xx_hal_uart.crf --depend stm32f427iih6\stm32f4xx_hal_uart.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x64782DCE)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x65B361A4)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x64782DCE)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x64782DAC)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f427xx.h)(0x64782DAC)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x64782DAE)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x64782DAE)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x64782DAE)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x64782DAE)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x64782DAE)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x64782DAC)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x64782DCE)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x64782DCE)
+F (../Core/Src/system_stm32f4xx.c)(0x6402F42E)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../application -I ../boards -I ../assignment-I D:\program_bags\Robocon24\小牛下位机代码\version4_5\2024RC_R2(@2)\2024RC_R2(@2)\MDK-ARM\RTE-I "D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I "D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\PACK\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F427xx -DUSE_HAL_DRIVER -DSTM32F427xx-o stm32f427iih6\system_stm32f4xx.o --omf_browse stm32f427iih6\system_stm32f4xx.crf --depend stm32f427iih6\system_stm32f4xx.d)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x64782DAC)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f427xx.h)(0x64782DAC)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x64782DAE)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x64782DAE)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x64782DAE)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x64782DAE)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x64782DAE)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x64782DAC)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x64782DCE)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x65B361A4)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x64782DCE)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x64782DCE)
+F (../Middlewares/Third_Party/FreeRTOS/Source/croutine.c)(0x64782DB0)(--c99 -c --cpu Cortex-M4.fp -g -O1 -Otime --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../application -I ../boards -I ../assignment-I D:\program_bags\Robocon24\小牛下位机代码\version4_5\2024RC_R2(@2)\2024RC_R2(@2)\MDK-ARM\RTE-I "D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I "D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\PACK\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F427xx -DUSE_HAL_DRIVER -DSTM32F427xx-o stm32f427iih6\croutine.o --omf_browse stm32f427iih6\croutine.crf --depend stm32f427iih6\croutine.d)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x64782DB0)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../Core/Inc/FreeRTOSConfig.h)(0x6437A204)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/croutine.h)(0x64782DB0)
+F (../Middlewares/Third_Party/FreeRTOS/Source/event_groups.c)(0x64782DB0)(--c99 -c --cpu Cortex-M4.fp -g -O1 -Otime --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../application -I ../boards -I ../assignment-I D:\program_bags\Robocon24\小牛下位机代码\version4_5\2024RC_R2(@2)\2024RC_R2(@2)\MDK-ARM\RTE-I "D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I "D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\PACK\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F427xx -DUSE_HAL_DRIVER -DSTM32F427xx-o stm32f427iih6\event_groups.o --omf_browse stm32f427iih6\event_groups.crf --depend stm32f427iih6\event_groups.d)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\stdlib.h)(0x569DEA3A)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x64782DB0)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../Core/Inc/FreeRTOSConfig.h)(0x6437A204)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h)(0x64782DB0)
+F (../Middlewares/Third_Party/FreeRTOS/Source/list.c)(0x64782DB0)(--c99 -c --cpu Cortex-M4.fp -g -O1 -Otime --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../application -I ../boards -I ../assignment-I D:\program_bags\Robocon24\小牛下位机代码\version4_5\2024RC_R2(@2)\2024RC_R2(@2)\MDK-ARM\RTE-I "D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I "D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\PACK\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F427xx -DUSE_HAL_DRIVER -DSTM32F427xx-o stm32f427iih6\list.o --omf_browse stm32f427iih6\list.crf --depend stm32f427iih6\list.d)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\stdlib.h)(0x569DEA3A)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x64782DB0)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../Core/Inc/FreeRTOSConfig.h)(0x6437A204)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x64782DB0)
+F (../Middlewares/Third_Party/FreeRTOS/Source/queue.c)(0x64782DB0)(--c99 -c --cpu Cortex-M4.fp -g -O1 -Otime --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../application -I ../boards -I ../assignment-I D:\program_bags\Robocon24\小牛下位机代码\version4_5\2024RC_R2(@2)\2024RC_R2(@2)\MDK-ARM\RTE-I "D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I "D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\PACK\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F427xx -DUSE_HAL_DRIVER -DSTM32F427xx-o stm32f427iih6\queue.o --omf_browse stm32f427iih6\queue.crf --depend stm32f427iih6\queue.d)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\stdlib.h)(0x569DEA3A)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\string.h)(0x569DEA3A)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x64782DB0)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../Core/Inc/FreeRTOSConfig.h)(0x6437A204)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x64782DB0)
+F (../Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c)(0x64782DB0)(--c99 -c --cpu Cortex-M4.fp -g -O1 -Otime --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../application -I ../boards -I ../assignment-I D:\program_bags\Robocon24\小牛下位机代码\version4_5\2024RC_R2(@2)\2024RC_R2(@2)\MDK-ARM\RTE-I "D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I "D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\PACK\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F427xx -DUSE_HAL_DRIVER -DSTM32F427xx-o stm32f427iih6\stream_buffer.o --omf_browse stm32f427iih6\stream_buffer.crf --depend stm32f427iih6\stream_buffer.d)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\string.h)(0x569DEA3A)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x64782DB0)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (../Core/Inc/FreeRTOSConfig.h)(0x6437A204)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/stream_buffer.h)(0x64782DB0)
+F (../Middlewares/Third_Party/FreeRTOS/Source/tasks.c)(0x64782DB0)(--c99 -c --cpu Cortex-M4.fp -g -O1 -Otime --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../application -I ../boards -I ../assignment-I D:\program_bags\Robocon24\小牛下位机代码\version4_5\2024RC_R2(@2)\2024RC_R2(@2)\MDK-ARM\RTE-I "D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I "D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\PACK\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F427xx -DUSE_HAL_DRIVER -DSTM32F427xx-o stm32f427iih6\tasks.o --omf_browse stm32f427iih6\tasks.crf --depend stm32f427iih6\tasks.d)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\stdlib.h)(0x569DEA3A)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\string.h)(0x569DEA3A)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x64782DB0)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../Core/Inc/FreeRTOSConfig.h)(0x6437A204)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/stack_macros.h)(0x64782DB0)
+F (../Middlewares/Third_Party/FreeRTOS/Source/timers.c)(0x64782DB0)(--c99 -c --cpu Cortex-M4.fp -g -O1 -Otime --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../application -I ../boards -I ../assignment-I D:\program_bags\Robocon24\小牛下位机代码\version4_5\2024RC_R2(@2)\2024RC_R2(@2)\MDK-ARM\RTE-I "D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I "D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\PACK\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F427xx -DUSE_HAL_DRIVER -DSTM32F427xx-o stm32f427iih6\timers.o --omf_browse stm32f427iih6\timers.crf --depend stm32f427iih6\timers.d)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\stdlib.h)(0x569DEA3A)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x64782DB0)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../Core/Inc/FreeRTOSConfig.h)(0x6437A204)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x64782DB0)
+F (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c)(0x64782DB0)(--c99 -c --cpu Cortex-M4.fp -g -O1 -Otime --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../application -I ../boards -I ../assignment-I D:\program_bags\Robocon24\小牛下位机代码\version4_5\2024RC_R2(@2)\2024RC_R2(@2)\MDK-ARM\RTE-I "D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I "D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\PACK\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F427xx -DUSE_HAL_DRIVER -DSTM32F427xx-o stm32f427iih6\cmsis_os.o --omf_browse stm32f427iih6\cmsis_os.crf --depend stm32f427iih6\cmsis_os.d)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\string.h)(0x569DEA3A)
+I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x64782DB0)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../Core/Inc/FreeRTOSConfig.h)(0x6437A204)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h)(0x64782DB0)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x64782DAE)
+F (../Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c)(0x64782DB0)(--c99 -c --cpu Cortex-M4.fp -g -O1 -Otime --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../application -I ../boards -I ../assignment-I D:\program_bags\Robocon24\小牛下位机代码\version4_5\2024RC_R2(@2)\2024RC_R2(@2)\MDK-ARM\RTE-I "D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I "D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\PACK\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F427xx -DUSE_HAL_DRIVER -DSTM32F427xx-o stm32f427iih6\heap_4.o --omf_browse stm32f427iih6\heap_4.crf --depend stm32f427iih6\heap_4.d)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\stdlib.h)(0x569DEA3A)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x64782DB0)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../Core/Inc/FreeRTOSConfig.h)(0x6437A204)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x64782DB0)
+F (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/port.c)(0x64782DB0)(--c99 -c --cpu Cortex-M4.fp -g -O1 -Otime --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../application -I ../boards -I ../assignment-I D:\program_bags\Robocon24\小牛下位机代码\version4_5\2024RC_R2(@2)\2024RC_R2(@2)\MDK-ARM\RTE-I "D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I "D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\PACK\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F427xx -DUSE_HAL_DRIVER -DSTM32F427xx-o stm32f427iih6\port.o --omf_browse stm32f427iih6\port.crf --depend stm32f427iih6\port.d)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x64782DB0)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../Core/Inc/FreeRTOSConfig.h)(0x6437A204)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x64782DB0)
+F (..\application\pid.c)(0x662BE4EC)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../application -I ../boards -I ../assignment-I D:\program_bags\Robocon24\小牛下位机代码\version4_5\2024RC_R2(@2)\2024RC_R2(@2)\MDK-ARM\RTE-I "D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I "D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\PACK\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F427xx -DUSE_HAL_DRIVER -DSTM32F427xx-o stm32f427iih6\pid.o --omf_browse stm32f427iih6\pid.crf --depend stm32f427iih6\pid.d)
+I (..\application\pid.h)(0x662BDA20)
+I (..\application\struct_typedef.h)(0x5EEF57FE)
+I (../Core/Inc/main.h)(0x668BDE30)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x64782DCE)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x65B361A4)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x64782DCE)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x64782DAC)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f427xx.h)(0x64782DAC)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x64782DAE)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x64782DAE)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x64782DAE)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x64782DAE)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x64782DAE)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x64782DAC)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x64782DCE)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x64782DCE)
+I (../assignment/chassis_task.h)(0x666B0A9A)
+I (../Core/Inc/gpio.h)(0x643798EA)
+I (../Core/Inc/tim.h)(0x652EC55A)
+I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x64782DB0)
+I (../Core/Inc/FreeRTOSConfig.h)(0x6437A204)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h)(0x64782DB0)
+I (../Core/Inc/can.h)(0x64379F52)
+I (../Core/Inc/dma.h)(0x643798EA)
+I (../Core/Inc/usart.h)(0x666B099A)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\math.h)(0x569DEA3A)
+F (..\boards\gld_can.c)(0x664499D0)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../application -I ../boards -I ../assignment-I D:\program_bags\Robocon24\小牛下位机代码\version4_5\2024RC_R2(@2)\2024RC_R2(@2)\MDK-ARM\RTE-I "D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I "D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\PACK\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F427xx -DUSE_HAL_DRIVER -DSTM32F427xx-o stm32f427iih6\gld_can.o --omf_browse stm32f427iih6\gld_can.crf --depend stm32f427iih6\gld_can.d)
+I (..\boards\gld_can.h)(0x6644999C)
+I (../application/struct_typedef.h)(0x5EEF57FE)
+I (../Core/Inc/can.h)(0x64379F52)
+I (../Core/Inc/main.h)(0x668BDE30)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x64782DCE)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x65B361A4)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x64782DCE)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x64782DAC)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f427xx.h)(0x64782DAC)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x64782DAE)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x64782DAE)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x64782DAE)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x64782DAE)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x64782DAE)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x64782DAC)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x64782DCE)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x64782DCE)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\math.h)(0x569DEA3A)
+F (..\assignment\chassis_task.c)(0x668C3997)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../application -I ../boards -I ../assignment-I D:\program_bags\Robocon24\小牛下位机代码\version4_5\2024RC_R2(@2)\2024RC_R2(@2)\MDK-ARM\RTE-I "D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I "D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\PACK\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F427xx -DUSE_HAL_DRIVER -DSTM32F427xx-o stm32f427iih6\chassis_task.o --omf_browse stm32f427iih6\chassis_task.crf --depend stm32f427iih6\chassis_task.d)
+I (..\assignment\chassis_task.h)(0x666B0A9A)
+I (../Core/Inc/main.h)(0x668BDE30)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x64782DCE)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x65B361A4)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x64782DCE)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x64782DAC)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f427xx.h)(0x64782DAC)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x64782DAE)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x64782DAE)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x64782DAE)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x64782DAE)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x64782DAE)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x64782DAC)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x64782DCE)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x64782DCE)
+I (../Core/Inc/gpio.h)(0x643798EA)
+I (../Core/Inc/tim.h)(0x652EC55A)
+I (../application/pid.h)(0x662BDA20)
+I (../application/struct_typedef.h)(0x5EEF57FE)
+I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x64782DB0)
+I (../Core/Inc/FreeRTOSConfig.h)(0x6437A204)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h)(0x64782DB0)
+I (../Core/Inc/can.h)(0x64379F52)
+I (../Core/Inc/dma.h)(0x643798EA)
+I (../Core/Inc/usart.h)(0x666B099A)
+I (..\assignment\message_task.h)(0x667EF70C)
+I (../boards/gld_can.h)(0x6644999C)
+I (..\assignment\upper_task.h)(0x6674AC42)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\math.h)(0x569DEA3A)
+F (..\assignment\upper_task.c)(0x6690661B)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../application -I ../boards -I ../assignment-I D:\program_bags\Robocon24\小牛下位机代码\version4_5\2024RC_R2(@2)\2024RC_R2(@2)\MDK-ARM\RTE-I "D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I "D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\PACK\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F427xx -DUSE_HAL_DRIVER -DSTM32F427xx-o stm32f427iih6\upper_task.o --omf_browse stm32f427iih6\upper_task.crf --depend stm32f427iih6\upper_task.d)
+I (..\assignment\upper_task.h)(0x6674AC42)
+I (../Core/Inc/main.h)(0x668BDE30)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x64782DCE)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x65B361A4)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x64782DCE)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x64782DAC)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f427xx.h)(0x64782DAC)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x64782DAE)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x64782DAE)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x64782DAE)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x64782DAE)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x64782DAE)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x64782DAC)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x64782DCE)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x64782DCE)
+I (../Core/Inc/gpio.h)(0x643798EA)
+I (../Core/Inc/tim.h)(0x652EC55A)
+I (../boards/gld_can.h)(0x6644999C)
+I (../application/struct_typedef.h)(0x5EEF57FE)
+I (../Core/Inc/can.h)(0x64379F52)
+I (../application/pid.h)(0x662BDA20)
+I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x64782DB0)
+I (../Core/Inc/FreeRTOSConfig.h)(0x6437A204)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h)(0x64782DB0)
+I (../Core/Inc/dma.h)(0x643798EA)
+I (../Core/Inc/usart.h)(0x666B099A)
+I (..\assignment\message_task.h)(0x667EF70C)
+I (..\assignment\chassis_task.h)(0x666B0A9A)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\math.h)(0x569DEA3A)
+F (..\assignment\message_task.c)(0x667F08F8)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../application -I ../boards -I ../assignment-I D:\program_bags\Robocon24\小牛下位机代码\version4_5\2024RC_R2(@2)\2024RC_R2(@2)\MDK-ARM\RTE-I "D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I "D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\PACK\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F427xx -DUSE_HAL_DRIVER -DSTM32F427xx-o stm32f427iih6\message_task.o --omf_browse stm32f427iih6\message_task.crf --depend stm32f427iih6\message_task.d)
+I (../Core/Inc/usart.h)(0x666B099A)
+I (../Core/Inc/main.h)(0x668BDE30)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x64782DCE)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x65B361A4)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x64782DCE)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x64782DAC)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f427xx.h)(0x64782DAC)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x64782DAE)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x64782DAE)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x64782DAE)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x64782DAE)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x64782DAE)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x64782DAC)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x64782DCE)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x64782DCE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x64782DCE)
+I (..\assignment\message_task.h)(0x667EF70C)
+I (../Core/Inc/gpio.h)(0x643798EA)
+I (../Core/Inc/tim.h)(0x652EC55A)
+I (../boards/gld_can.h)(0x6644999C)
+I (../application/struct_typedef.h)(0x5EEF57FE)
+I (../Core/Inc/can.h)(0x64379F52)
+I (../application/pid.h)(0x662BDA20)
+I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x64782DB0)
+I (../Core/Inc/FreeRTOSConfig.h)(0x6437A204)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x64782DB0)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h)(0x64782DB0)
+I (../Core/Inc/dma.h)(0x643798EA)
+I (..\assignment\chassis_task.h)(0x666B0A9A)
+I (..\assignment\upper_task.h)(0x6674AC42)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\stdio.h)(0x569DEA3A)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\stdlib.h)(0x569DEA3A)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\stdarg.h)(0x569DEA3A)
+I (D:\Software I downloaded\keil5_mdk\keil5_mdk_install\ARM\ARMCC\include\string.h)(0x569DEA3A)
